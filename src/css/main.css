@@ -1,0 +1,14 @@
+.text-center {
+    text-align: center;
+}
+
+
+ul#social li {
+    display: inline;
+}
+
+/* Fonts */
+
+.pt-sans {
+    font-family: 'PT Sans', sans-serif;
+}
