@@ -1,14 +1,39 @@
-.text-center {
-    text-align: center;
+body {
+    background-image: url("https://i.imgur.com/WJFzrOG.png");
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100% !important;
 }
 
-
-ul#social li {
-    display: inline;
+@media only screen and (min-width: 1000px) {
+    .container {
+        height: auto;
+        width: 50%;
+    }
 }
 
-/* Fonts */
+.logo {
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+    overflow: hidden;
+}
 
-.pt-sans {
-    font-family: 'PT Sans', sans-serif;
+.titletext {
+    color: white !important;
+}
+
+.about {
+    margin: 2%;
+}
+
+a {
+    text-decoration: none !important;
+    color: white;
+}
+
+a:hover {
+    color: #C57AEA;
 }
